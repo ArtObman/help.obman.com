@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hosting on OBMAN.BOT Help Center</title>
+    <link>http://localhost:54523/selfhosting/hosting/</link>
+    <description>Recent content in Hosting on OBMAN.BOT Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 OBMAN.BOT documentation contributors</copyright>
+    <atom:link href="http://localhost:54523/selfhosting/hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initial Setup</title>
+      <link>http://localhost:54523/selfhosting/hosting/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54523/selfhosting/hosting/setup/</guid>
+      <description>&lt;p&gt;On this page, we will explain how to let Discord know about your bot and to configure OBMAN.BOT accordingly.&lt;/p&gt;&#xA;&lt;h2 id=&#34;discord&#34;&gt;Discord&lt;/h2&gt;&#xA;&lt;p&gt;Every Discord user requires an identity, the same goes for any bot on Discord.&#xA;Follow the below steps to setup OBMAN.BOT on the Discord side of your deployment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;creating-a-new-application&#34;&gt;Creating a New Application&lt;/h3&gt;&#xA;&lt;p&gt;Login to the &lt;a href=&#34;https://discord.com/developers/applications&#34; rel=&#34;external&#34;&gt;Discord Developer Portal&lt;/a&gt; with the same credentials you use to login to Discord itself.&lt;/p&gt;&#xA;&lt;p&gt;Create a new application and follow the instructions.&#xA;The name of the application will help you identify it later, it will not be your bot&amp;rsquo;s username.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docker Installation</title>
+      <link>http://localhost:54523/selfhosting/hosting/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54523/selfhosting/hosting/docker/</guid>
+      <description>&lt;p&gt;The easiest way to get your instance of OBMAN.BOT running may be via Docker.&#xA;For that, you&amp;rsquo;ll need Docker with the Docker Compose plugin installed.&lt;/p&gt;&#xA;&lt;p&gt;You should already have a clone of the sources on your disk from the previous page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;&#xA;&lt;p&gt;Before you can start the container, you will need some configuration values.&#xA;Go into the &lt;code&gt;OBMAN.BOT_docker&lt;/code&gt; directory and opy &lt;code&gt;app.example.env&lt;/code&gt; to &lt;code&gt;app.env&lt;/code&gt; and &lt;code&gt;db.example.env&lt;/code&gt; to &lt;code&gt;db.env&lt;/code&gt;.&#xA;Open both in an editor of your choice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Baremetal Installation</title>
+      <link>http://localhost:54523/selfhosting/hosting/baremetal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54523/selfhosting/hosting/baremetal/</guid>
+      <description>&lt;p&gt;Running a baremetal installation of OBMAN.BOT is a little more involved, but comes with the benefit of reduced compilation times, as no container has to be rebuilt.&#xA;This is especially useful if you intend to contribute to the project by writing patches.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;As mentioned in the introduction, you will need Git, Go, PostgreSQL, and Redis or Valkey installed.&#xA;Use your distro&amp;rsquo;s package repositories if they&amp;rsquo;re up to date, otherwise install those dependencies manually.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

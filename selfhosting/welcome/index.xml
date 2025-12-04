@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on OBMAN.BOT Help Center</title>
+    <link>http://localhost:54523/selfhosting/welcome/</link>
+    <description>Recent content in Welcome on OBMAN.BOT Help Center</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 OBMAN.BOT documentation contributors</copyright>
+    <atom:link href="http://localhost:54523/selfhosting/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:54523/selfhosting/welcome/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54523/selfhosting/welcome/introduction/</guid>
+      <description>&lt;p&gt;This section is intended for users who wish to selfhost OBMAN.BOT, either for development purposes or because they just want to run the bot on their own hardware.&lt;/p&gt;&#xA;&lt;h2 id=&#34;support-disclaimer&#34;&gt;Support Disclaimer&lt;/h2&gt;&#xA;&lt;p&gt;Whilst the OBMAN.BOT team (attempts to) provides documentation for this endeavour, please note that only a handful actually selfhosts the bot&amp;mdash;therefore, we&amp;rsquo;re unable to provide extensive support.&#xA;That is to say, unless you can reproduce an issue on the officially hosted instance, you&amp;rsquo;re on your own resolving it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
